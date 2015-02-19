@@ -22,6 +22,11 @@
     <![endif]-->
 
 	<script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>
 	$(document).ready(function () {
 		var $container = $('.masonry-container');
 		$container.imagesLoaded( function() {
@@ -38,6 +43,7 @@
   </head>
 
   <body>
+	<div class="loader"></div>
 
     <div class="container">
 
